@@ -1,5 +1,4 @@
 package proyectoIntegrador;
-
 import java.util.List;
 
 public class Servidor extends EquipoTI{

@@ -1,6 +1,4 @@
 package proyectoIntegrador;
-
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -14,6 +12,13 @@ public class Main {
             new Servidor("Servidor Secundario", "2029-06-30", "Guadalajara")
         );
 
-        Servidor laptop = new Servidor();
+        Laptop laptop = new Laptop();
+        Servidor servidor = new Servidor();
+
+        System.out.println("===== LLAMANDO SOLO EQUIPOS DE TIPO LAPTOP =====");
+        laptop.mostrarEquiposTI(equipos);
+
+        System.out.println("===== LLAMANDO TODOS LOS EQUPOS TI DESDE UN OBJETO DE TIPO SERVIDOR =====");
+        servidor.mostrarEquiposTI(equipos);
     }
 }

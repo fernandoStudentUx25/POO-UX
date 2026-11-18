@@ -1,5 +1,4 @@
 package proyectoIntegrador;
-
 import java.util.List;
 
 public class Laptop extends EquipoTI{
@@ -24,7 +23,6 @@ public class Laptop extends EquipoTI{
        System.out.println("laptop consume 20% de la energia total");
     }
 
-    @Override
     public void mostrarEquiposTI(List<EquipoTI> equipos) {
         for(EquipoTI equipo : equipos){
             if (equipo instanceof Laptop) {
