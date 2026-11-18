@@ -35,4 +35,38 @@ public class Computadora {
             System.out.println("No puedes entrar");
         }
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getCpu() {
+        return cpu;
+    }
+
+    public void setCpu(String cpu) {
+        this.cpu = cpu;
+    }
+
+    public String getRam() {
+        return ram;
+    }
+
+    public void setRam(String ram) {
+        this.ram = ram;
+    }
+
+    public String getTarjetaGrafica() {
+        return tarjetaGrafica;
+    }
+
+    public void setTarjetaGrafica(String tarjetaGrafica) {
+        this.tarjetaGrafica = tarjetaGrafica;
+    }
+
+    
 }

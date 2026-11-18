@@ -4,6 +4,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+        
         List<EquipoTI> equipos = Arrays.asList(
             new Laptop("Dell Latitude", "2027-12-31", "Dell", 15000),
             new Laptop("MacBook Pro", "2028-06-15", "Apple", 35000),
