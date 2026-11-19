@@ -13,7 +13,12 @@ public class Main {
             new Servidor("Servidor Principal", "2028-12-31", "Ciudad de México"),
             new Servidor("Servidor Secundario", "2029-06-30", "Guadalajara")
         );
+        EquipoTI laptop = new Laptop();
+        System.out.println("***** ejemplo laptos *****");
+        laptop.mostrarEquiposTI(equipos);
 
-        Servidor laptop = new Servidor();
+        EquipoTI servidor = new Servidor();
+        System.out.println("***** ejemplo con equipos TI *****");
+        servidor.mostrarEquiposTI(equipos);
     }
 }
